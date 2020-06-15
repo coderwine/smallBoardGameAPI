@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="./styles.css">
+  <title>Search a Game</title>
+</head>
+
+<body>
+  <!-- NAVBAR - bootstrap -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+        aria-selected="true">Search</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+        aria-selected="false">Resources</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+        aria-selected="false">Contact</a>
+      </li>
+      <li class="nav-item siteTitle">
+        <h1 class="navbar-brand title" href="#">Find'a Board Game</h1>
+      </li>
+    </ul>
+
+    <div class="tab-content" id="myTabContent">
+      
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Input Title Here..." aria-label="Search">
+              <button class="btn btn-outline-info my-2 my-sm-0" id="rollBtn" type="submit"></button>
+            </form>
+        
+        </div>
+
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        Thank you for taking
+        the time to look over my simple API project. I'd like to point to just a couple resources that I utilized in
+        this project: <a href="https://www.boardgameatlas.com/api/docs" target="_blank">Board Game Atlas</a>, <a
+          href="https://getbootstrap.com" target="_blank">Bootstrap</a> and <a href="https://elevenfifty.org/"
+          target="_blank">Eleven Fifty Academy</a>.  The concept of this project was to help practice and also to build a project that I can use to create a lesson plan on doing a simple deployment to <a href="https://firebase.google.com/" target="_blank">Google Firebase</a>. The icons on this page are supplied by <a href="https://www.flaticon.com/" target="_blank">Flat Icon</a>.
+      </div>
+
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <a href="https://coderwine.github.io/portfolio/" target="_blank">
+          <div id="portfolio"></div>
+        </a>
+        <a href="https://www.linkedin.com/in/ewine/" target="_blank">
+          <div id="linkedIn"></div>
+        </a>
+        <a href="https://github.com/coderwine" target="_blank">
+          <div id="github"></div>
+        </a>
+      </div>
+
+    </div>
+
+  <!-- DISPLAY - bootstrap -->
+  <div class="card-deck row row-col-md-3 container-fluid text-white">
+    <!-- KEPT FOR LAYOUT REF -->
+    <!-- <div class="card row">
+      <h5 class="card-title">Card title</h5>
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"></p>
+            
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+              Launch static backdrop modal
+            </button>
+          </div> -->
+
+  </div>
+
+  <!-- BOOTSTRAP -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <!-- MY SCRIPT -->
+  <script src="./key.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
