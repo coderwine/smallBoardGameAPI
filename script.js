@@ -96,21 +96,17 @@ function displayCards(data) {
         card.appendChild(cardBody);
 
         cardBody.appendChild(pub);
-        // cardBody.appendChild(br);
         cardBody.appendChild(year);
         cardBody.appendChild(br);
         cardBody.appendChild(price);
         cardBody.appendChild(br);
         cardBody.appendChild(noPlayers);
         cardBody.appendChild(br);
-        cardBody.appendChild(time);
-        // cardBody.appendChild(br);   
+        cardBody.appendChild(time);   
         cardBody.appendChild(rules);
         cardBody.appendChild(link);
         
         cardDeck.appendChild(clearfix);
-
-        // console.log(cardDeck);
     }
 }
 
