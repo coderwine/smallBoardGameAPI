@@ -1,4 +1,5 @@
-const baseURL = 'https://www.boardgameatlas.com/api/search?name='
+// const baseURL = 'https://www.boardgameatlas.com/api/search?name='  //OLD
+const baseURL = 'http://api.boardgameatlas.com/api//search?name='  // UPDATED URL
 const cardDeck = document.querySelector('.card-deck');
 const form = document.querySelector('form');
 const btn = document.querySelector('.btn');
@@ -111,3 +112,5 @@ function displayCards(data) {
 }
 
 //! Consider building a function that creates a modal depending on what card is selected.  Will need to pass that particular infomtion from that card into through the modal button.
+
+
