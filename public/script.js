@@ -1,5 +1,5 @@
 // const baseURL = 'https://www.boardgameatlas.com/api/search?name='  //OLD
-const baseURL = 'http://api.boardgameatlas.com/api//search?name='  // UPDATED URL
+const baseURL = 'http://api.boardgameatlas.com/api/search?name='  // UPDATED URL
 const cardDeck = document.querySelector('.card-deck');
 const form = document.querySelector('form');
 const btn = document.querySelector('.btn');
