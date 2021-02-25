@@ -15,6 +15,8 @@ function fetchGames(e) {
     let search = searchField.value;
     let buildURL = `${baseURL}${search}${clientID}`;
 
+    console.log(buildURL);
+
     fetch(buildURL)
         .then(res => res.json())
         .then(data => displayCards(data))
